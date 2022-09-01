@@ -24,11 +24,6 @@
 /* End Of Navbar CSS */
 
 /* Home Section */
-#home h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 52px;
-  line-height: 72px;
-}
 
 #home h5 {
   font-family: "Work Sans", sans-serif;
@@ -42,6 +37,12 @@
   margin-top: 88px;
   margin-bottom: 88px;
 }
+.title-home {
+  font-family: "Raleway", sans-serif;
+  font-size: 52px;
+  line-height: 72px;
+}
+
 .btn-home {
   border-radius: 6px;
   padding-top: 6px;
@@ -161,6 +162,9 @@ a {
 #your-business-starts-here {
   margin-top: 108px;
 }
+#your-business-starts-here img {
+  margin-top: 40px;
+}
 
 #your-business-starts-here .text-subtitle {
   color: black;
@@ -176,11 +180,25 @@ a {
 
 /* End  Of Your Business Starts Here Section */
 
+/* Creating A New Feature Section */
+#creating-new-feature {
+  margin-top: 60px;
+}
+/* End Of Creating A New Feature Section */
+
+/*  */
+
 /* Section Creating A New Business  */
 #creating-a-new-business {
-  margin-top: 200px;
+  margin-top: 96px;
 }
 /*  End Of Section Creating A New Business  */
+
+/* Re-design Your Web Or App Section */
+#redesign-your-web-or-app .container {
+  margin-top: 60px;
+}
+/* End Of  Re-design Your Web Or App Section */
 .title-creating-a-new-business {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -193,6 +211,18 @@ a {
   line-height: 28px;
   color: #616161;
 }
+
+/* Creating A Business Brand Section */
+#creating-a-business-brand {
+  margin-top: 60px;
+}
+/* End Of Creating A Business Brand Section */
+/* What See Section */
+#what-see {
+  margin-top: 80px;
+}
+/* End Of What See Section */
+
 /* Footer */
 #footer {
   width: auto;
@@ -391,9 +421,18 @@ input:focus {
 
   /* End Of Our Last Work */
 
+  /* Your Business Starts Here */
+  #your-business-starts-here img {
+    margin-top: 0px;
+  }
+  /* End Of Your Business Starts Here */
+
   /* Creating A New Business */
   .col-creating-a-new-business {
-    margin-top: 11%;
+    margin-top: 5%;
+  }
+  #creating-a-new-business {
+    margin-top: 200px;
   }
   /* End Of Creating A New Business */
 
@@ -435,7 +474,6 @@ input:focus {
     background-image: linear-gradient(to bottom right, #0c97fa, #16e1f5);
     border-radius: 16px 16px 0px 0px;
   }
-
   .text-footer {
     font-family: "Work Sans", sans-serif;
     font-size: 22px;
@@ -498,9 +536,12 @@ input:focus {
     background-color: #ffffff;
     display: none;
   }
-  .line-break-footer {
-    margin-top: 20px;
+  .copy-right {
+    margin-top: -25px;
   }
+  /* .line-break-footer {
+    margin-top: 20px;
+  } */
 
   /* End Of Footer */
 }
@@ -522,14 +563,13 @@ input:focus {
     background-color: #ffffff;
     display: none;
   }
-  .line-break-footer {
+  /* .line-break-footer {
     margin-top: 20px;
-  }
+  } */
   #footer {
     width: auto;
     margin-top: 110px;
     padding-top: 80px;
-    /* padding-bottom: 80px; */
     padding-left: 48px;
     padding-right: 48px;
     height: auto;
