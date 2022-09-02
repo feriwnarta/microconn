@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,7 +31,7 @@
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link me-5" aria-current="page" href="<?= BASE_URL; ?>">Home</a>
                     <a class="nav-link me-5" href="<?= BASE_URL; ?>/service">Services</a>
-                    <a class="nav-link me-5" href="#">Work</a>
+                    <a class="nav-link me-5" href="<?= BASE_URL; ?>/workpage">Work</a>
                     <a class="nav-link" href="#">About Us</a>
                 </div>
             </div>

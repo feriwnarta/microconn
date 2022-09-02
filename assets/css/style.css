@@ -25,7 +25,7 @@
 
 /* Home Section */
 
-#home h5 {
+.title h5 {
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
   margin-top: 8px;
@@ -222,6 +222,24 @@ a {
   margin-top: 80px;
 }
 /* End Of What See Section */
+
+/* Fully Dedicated To */
+.title-fully-dedicated-to {
+  font-family: "Raleway", sans-serif;
+  font: 500;
+  font-size: 64px;
+  line-height: 84px;
+  letter-spacing: -0.5%;
+}
+.subtitle-fully-dedicated-to {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.3%;
+  color: #616161;
+}
+/* End Of  Fully Dedicated To */
 
 /* Footer */
 #footer {
@@ -461,6 +479,13 @@ input:focus {
     margin-top: 120px;
   }
   /* End Of What See Section */
+
+  /* Fully Dedicated To */
+  #fully-dedicated-to {
+    margin-top: 108px;
+  }
+
+  /* End Of Fully Dedicated To */
 
   /* Footer */
   #footer {
