@@ -32,7 +32,7 @@
                     <a class="nav-link me-5" aria-current="page" href="<?= BASE_URL; ?>">Home</a>
                     <a class="nav-link me-5" href="<?= BASE_URL; ?>/service">Services</a>
                     <a class="nav-link me-5" href="<?= BASE_URL; ?>/workpage">Work</a>
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="<?= BASE_URL; ?>/about">About Us</a>
                 </div>
             </div>
         </div>

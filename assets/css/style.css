@@ -224,6 +224,15 @@ a {
 /* End Of What See Section */
 
 /* Fully Dedicated To */
+#fully-dedicated-to {
+  margin-top: 100px;
+}
+.subtitle-fully-dedicated-to {
+  margin-top: 8px;
+}
+#fully-dedicated-to img {
+  margin-top: 32px;
+}
 .title-fully-dedicated-to {
   font-family: "Raleway", sans-serif;
   font: 500;
@@ -240,6 +249,24 @@ a {
   color: #616161;
 }
 /* End Of  Fully Dedicated To */
+
+/* We Are Microconn Section */
+#we-are-microconn {
+  margin-top: 108px;
+}
+.title-we-are-microconn {
+  font-family: "Raleway", sans-serif;
+  font-size: 64px;
+  line-height: 84px;
+}
+.subtitle-we-are-microconn {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #616161;
+}
+/* End Of We Are Microconn Section */
 
 /* Footer */
 #footer {
@@ -486,6 +513,12 @@ input:focus {
   }
 
   /* End Of Fully Dedicated To */
+
+  /* We Are Microconn */
+  .col-we-are-microconn {
+    padding-top: 5%;
+  }
+  /* End Of We Are Microconn */
 
   /* Footer */
   #footer {
