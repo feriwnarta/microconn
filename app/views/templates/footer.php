@@ -82,7 +82,7 @@
             <div class="line-break"></div>
         </div>
     </div>
-    <div class="row mt-5 copy-right">
+    <div class="row copy-right">
         <div class="col">
             <p class="text-copyright">© 2022 Microconn. All rights reserved</p>
         </div>
