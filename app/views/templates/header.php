@@ -37,6 +37,4 @@
             </div>
         </div>
     </nav>
-
-    <div id="alert-email"></div>
     <!-- The End Of Navbar Section -->
