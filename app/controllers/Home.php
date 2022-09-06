@@ -6,8 +6,7 @@ class Home extends Controller
      * controler default dari web microcon
      * controller ini akan menampilkan halaman home
      */
-    public function index()
-    {
+    public function index() {
         // data yang akan dibawa
         $data['title'] = 'Welcome To Microconn';
 
