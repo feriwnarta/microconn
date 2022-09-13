@@ -8,8 +8,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <link rel="stylesheet" href="<?= BASE_URL; ?>/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="<?= BASE_URL; ?>/assets/css/detailwork.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
+    
     <!-- MyFonts -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +33,7 @@
                     <a class="nav-link me-5" aria-current="page" href="<?= BASE_URL; ?>">Home</a>
                     <a class="nav-link me-5" href="<?= BASE_URL; ?>/service">Services</a>
                     <a class="nav-link me-5" href="<?= BASE_URL; ?>/workpage">Work</a>
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="<?= BASE_URL; ?>/aboutus">About Us</a>
                 </div>
             </div>
         </div>
