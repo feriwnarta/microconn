@@ -8,6 +8,9 @@
                     Micro, Small and Medium Enterprises to
                     achieve success in the digital era.
                 </div>
+                <button class="btn btn-home col-12 col-lg-3" width="120px" height="32px">
+                    Let's Talk
+                </button>
             </div>
             <div class="col-12 col-lg-6 ">
                 <img src="<?= BASE_URL; ?>/assets/img/Groupwork.svg" class="img-fluid" />
@@ -17,12 +20,6 @@
     </div>
 </section>
 <!--  End Of Fully Dedicated To -->
-
-
-
-
-
-
 
 <!-- Our Last Work -->
 <section id="our-last-work">

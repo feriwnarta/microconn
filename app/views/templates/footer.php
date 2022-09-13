@@ -66,8 +66,8 @@
             <div class="row d-flex">
                 <div class="col">
                     <div class="input-field">
-                        <form action="">
-                            <input type="text" placeholder="Your email address" autocomplete="off" />
+                        <form action="<?= BASE_URL; ?>/email/sendEmail" method="POST">
+                            <input type="email" name="email" placeholder="Your email address" autocomplete="off" style="height: auto;" />
                             <button type="submit" class="button-footer">
                                 <img src="<?= BASE_URL; ?>/assets/icon/send.svg" alt="" />
                             </button>
