@@ -569,7 +569,6 @@ input:focus {
 
   /* End Of Fully Dedicated To */
 
-<<<<<<< HEAD
 
   /* We Are Microconn (About Us)*/
   #we-are-microconn {
@@ -678,13 +677,11 @@ input:focus {
   }
 
   /* End Of Our Team (About Us) */
-=======
   /* We Are Microconn */
   .col-we-are-microconn {
     padding-top: 5%;
   }
   /* End Of We Are Microconn */
->>>>>>> 92ad9af30d1042ba25d290f9eab758076c00b558
 
   /* Footer */
   #footer {
@@ -753,12 +750,8 @@ input:focus {
     border: none;
     background-color: transparent;
   }
-<<<<<<< HEAD
 
   input[type="text"] {
-=======
-  input[type="email"] {
->>>>>>> 92ad9af30d1042ba25d290f9eab758076c00b558
     color: white;
   }
 

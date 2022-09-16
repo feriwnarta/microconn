@@ -24,6 +24,7 @@ class Email extends Controller
         } else {
             $error = '<script>alert("gagal mengirim email")</script>';
             echo $error;
+            header('Location: ' . BASE_URL . '');
         }
     }
 }

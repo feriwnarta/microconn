@@ -35,6 +35,5 @@ class Home extends Controller
         }
         $this->view('home/home');
         $this->view('templates/footer');
-        session_destroy();
     }
 }
